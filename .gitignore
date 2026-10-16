@@ -6,6 +6,7 @@ node_modules
 # Build outputs
 dist
 build
+.next
 *.tsbuildinfo
 
 # Generated files
@@ -50,6 +51,9 @@ lerna-debug.log*
 # Testing
 coverage
 .nyc_output
+
+# Temp clones (prefer os.tmpdir(); this is the repo-local fallback)
+.tmp/
 
 # Misc
 *.tgz
